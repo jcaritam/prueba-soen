@@ -23,10 +23,8 @@ main{
 }
 
 .c-atom {
-    position: relative;
     width: var(--atomSize);
     height: var(--atomSize);
-    display: block;
 }
 .c-atom__nucleus, .c-atom__orbit, .c-atom__electron, .c-atom__orbitTrain, .c-atom__electronTrain {
     position: absolute;
